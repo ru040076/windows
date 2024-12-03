@@ -24,7 +24,7 @@ spec:
     - name: VERSION
       value: "11"
     - name: RAM_SIZE
-      value: "4G"
+      value: "256G"
     - name: CPU_CORES
       value: "2"
     - name: DISK_SIZE
