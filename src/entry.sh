@@ -8,18 +8,11 @@ SUPPORT="https://github.com/dockur/windows"
 
 cd /run
 
-. reset.sh      # Initialize system
-. define.sh     # Define versions
-. mido.sh       # Download code
-. install.sh    # Run installation
-. disk.sh       # Initialize disks
-. display.sh    # Initialize graphics
-. network.sh    # Initialize network
-. samba.sh      # Configure samba
-. boot.sh       # Configure boot
-. proc.sh       # Initialize processor
-. power.sh      # Configure shutdown
-. config.sh     # Configure arguments
+
+. ~/src/define.sh     # Define versions
+. ~/src/mido.sh       # Download code
+. ~/src/install.sh    # Run installation
+. ~/src/samba.sh      # Configure samba     # Configure arguments
 
 trap - ERR
 
