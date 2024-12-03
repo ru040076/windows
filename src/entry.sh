@@ -10,9 +10,9 @@ cd /run
 
 
    # Define versions
-. ~/src/mido.sh       # Download code
-. ~/src/install.sh    # Run installation
-. ~/src/samba.sh      # Configure samba     # Configure arguments
+. /workspaces/windows/src/entry.sh  # Download code
+. /workspaces/windows/src/install.sh    # Run installation
+. /workspaces/windows/src/samba.sh   # Configure samba     # Configure arguments
 
 trap - ERR
 
