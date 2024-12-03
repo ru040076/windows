@@ -9,7 +9,7 @@ SUPPORT="https://github.com/dockur/windows"
 cd /run
 
 
-. ~/src/define.sh     # Define versions
+   # Define versions
 . ~/src/mido.sh       # Download code
 . ~/src/install.sh    # Run installation
 . ~/src/samba.sh      # Configure samba     # Configure arguments
